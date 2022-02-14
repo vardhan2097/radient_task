@@ -37,8 +37,6 @@ if($count_q > 0)
     $qstn_fetch_res = mysqli_query($conn,$qstn_fetch) or die("Select Qstn failed");
 
     $qstn_fetch_res = mysqli_query($conn,$qstn_fetch) or die("Select Qstn failed");
-
- 
     
     if (mysqli_num_rows($qstn_fetch_res) > 0) 
     {
@@ -62,6 +60,7 @@ if($count_q > 0)
 else
 {
     echo json_encode(array("message"=>"No Questions in Table","status"=>false));
-}/*
+}
+/*
 
 ?>
