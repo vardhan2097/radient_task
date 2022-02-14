@@ -1,0 +1,6 @@
+As per my understanding i have tried to do this task 
+The api is working as I have tested this.
+3 Methods are provided for Creating new Question for the MCQ and gicing 3 options for the questions.
+3 main files are api_create.php, api_update.php and api_delete.php respectively.
+
+Please note that google transation api is not used.
